@@ -13,6 +13,7 @@
   "author": "The Treeline Company",
   "license": "MIT",
   "dependencies": {
+    "lodash": "^3.10.1",
     "machine": "^12.3.0"
   },
   "devDependencies": {
@@ -23,7 +24,11 @@
     "friendlyName": "Booleans",
     "machineDir": "machines/",
     "machines": [
-      "to-boolean"
+      "to-boolean",
+      "is-between",
+      "is-defined",
+      "is-equal",
+      "is-greater-than"
     ]
   }
 }
