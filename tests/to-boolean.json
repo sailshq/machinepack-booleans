@@ -20,7 +20,7 @@
         "value": "\"0\""
       },
       "outcome": "success",
-      "returns": false
+      "returns": true
     },
     {
       "using": {
@@ -41,7 +41,7 @@
         "value": "\"false\""
       },
       "outcome": "success",
-      "returns": false
+      "returns": true
     },
     {
       "using": {
@@ -117,136 +117,7 @@
       },
       "outcome": "success",
       "returns": false
-    },
-
-    {
-      "using": {
-        "value": 0,
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": false
-    },
-    {
-      "using": {
-        "value": 1,
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "\"0\"",
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": false
-    },
-    {
-      "using": {
-        "value": "",
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": false
-    },
-    {
-      "using": {
-        "value": "\"1\"",
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "\"false\"",
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": false
-    },
-    {
-      "using": {
-        "value": "\"true\"",
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": false,
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": false
-    },
-    {
-      "using": {
-        "value": true,
-        "strict": true
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": 2,
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "value": "2",
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "value": -2,
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "value": "foo",
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "value": [],
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "value": {},
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
-    },
-    {
-      "using": {
-        "value": null,
-        "strict": true
-      },
-      "outcome": "couldNotConvert"
     }
-
 
   ]
 }
