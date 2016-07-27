@@ -46,7 +46,8 @@ module.exports = {
 
     success: {
       outputFriendlyName: 'Is greater than?',
-      outputDescription: 'A boolean indicating whether the first value is greater than (or equal to, if `Inclusive?` was set) the second.'
+      outputDescription: 'A boolean indicating whether the first value is greater than (or equal to, if `Inclusive?` was set) the second.',
+      outputExample: true
     }
 
   },
