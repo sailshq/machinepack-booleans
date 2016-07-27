@@ -28,7 +28,10 @@
       "is-between",
       "is-defined",
       "is-equal",
-      "is-greater-than"
+      "is-greater-than",
+      "and",
+      "or",
+      "not"
     ]
   }
 }
