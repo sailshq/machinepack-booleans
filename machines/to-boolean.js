@@ -37,7 +37,7 @@ module.exports = {
   exits: {
 
     success: {
-      outputFriendlyName: 'boolean',
+      outputFriendlyName: 'Boolean',
       outputDescription: 'The value obtained by converting the input value to a boolean.',
       outputExample: true
     },
