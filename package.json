@@ -12,15 +12,18 @@
   ],
   "author": "The Treeline Company",
   "license": "MIT",
-  "dependencies":{
+  "dependencies": {
     "machine": "^12.3.0"
   },
   "devDependencies": {
+    "mocha": "^2.5.3",
     "test-machinepack-mocha": "^2.0.0"
   },
   "machinepack": {
     "friendlyName": "Booleans",
     "machineDir": "machines/",
-    "machines": []
+    "machines": [
+      "to-boolean"
+    ]
   }
 }
