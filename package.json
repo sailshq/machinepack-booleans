@@ -32,6 +32,8 @@
       "is-not-equal",
       "is-greater-than",
       "is-less-than",
+      "is-truthy",
+      "is-falsy",
       "and",
       "or",
       "not"
