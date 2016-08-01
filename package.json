@@ -27,6 +27,7 @@
       "to-boolean",
       "is-between",
       "is-defined",
+      "is-undefined",
       "is-equal",
       "is-not-equal",
       "is-greater-than",
