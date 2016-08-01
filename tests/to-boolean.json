@@ -3,121 +3,50 @@
   "expectations": [
     {
       "using": {
-        "value": 0
+        "string": "1"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "true"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "0"
       },
       "outcome": "success",
       "returns": false
     },
     {
       "using": {
-        "value": 1
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "\"0\""
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": ""
+        "string": "false"
       },
       "outcome": "success",
       "returns": false
     },
     {
       "using": {
-        "value": "\"1\""
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "\"false\""
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "\"true\""
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": false
+        "string": ""
       },
       "outcome": "success",
       "returns": false
     },
     {
       "using": {
-        "value": true
+        "string": "2"
       },
-      "outcome": "success",
-      "returns": true
+      "outcome": "error"
     },
     {
       "using": {
-        "value": 2
+        "string": "foo"
       },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "2"
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": -2
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": "foo"
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": []
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {
-        "value": {}
-      },
-      "outcome": "success",
-      "returns": true
-    },
-    {
-      "using": {},
-      "outcome": "success",
-      "returns": false
-    },
-    {
-      "using": {
-        "value": null
-      },
-      "outcome": "success",
-      "returns": false
+      "outcome": "error"
     }
-
   ]
 }
