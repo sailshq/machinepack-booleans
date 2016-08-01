@@ -60,7 +60,7 @@ module.exports = {
     }
 
     // Otherwise return `false` through the `success` exit.
-    return exits.false(false);
+    return exits.success(false);
   }
 
 };
