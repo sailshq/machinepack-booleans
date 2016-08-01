@@ -28,7 +28,9 @@
       "is-between",
       "is-defined",
       "is-equal",
+      "is-not-equal",
       "is-greater-than",
+      "is-less-than",
       "and",
       "or",
       "not"
