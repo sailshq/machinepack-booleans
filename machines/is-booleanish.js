@@ -31,7 +31,7 @@ module.exports = {
 
     success: {
       outputFriendlyName: 'Is numeric booleanish?',
-      outputDescription: 'Whether or not the input string can be converted to a boolean.',
+      outputDescription: 'A boolean indicating whether the input string can be converted to a boolean.',
       outputExample: true
     },
 
@@ -50,6 +50,7 @@ module.exports = {
     ) {
       return exits.success(true);
     }
+
     // Otherwise return `false` through the `success` exit.
     return exits.success(false);
 

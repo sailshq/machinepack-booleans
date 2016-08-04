@@ -7,7 +7,7 @@ module.exports = {
   description: 'Determine whether the value is "truthy".',
 
 
-  extendedDescription: 'In Javascript, all values besides 0, null, undefined, false, NaN and the empty string are "truthy".',
+  extendedDescription: 'In Javascript, all values besides `0`, `null`, `undefined`, `false`, `NaN` and the empty string are "truthy".',
 
 
   sideEffects: 'cacheable',

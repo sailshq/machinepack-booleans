@@ -7,7 +7,7 @@ module.exports = {
   description: 'Determine whether the value is "falsy".',
 
 
-  extendedDescription: 'In Javascript, only the values 0, null, undefined, false, NaN and the empty string are "falsy".',
+  extendedDescription: 'In Javascript, only the values `0`, `null`, `undefined`, `false`, `NaN` and the empty string are "falsy".',
 
 
   sideEffects: 'cacheable',
