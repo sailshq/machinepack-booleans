@@ -36,7 +36,8 @@
       "is-falsy",
       "and",
       "or",
-      "not"
+      "not",
+      "is-booleanish"
     ]
   }
 }
