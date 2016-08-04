@@ -48,7 +48,7 @@ module.exports = {
       return exits.success(false);
     }
     // Otherwise thrown an error
-    return exits.error('The given value could not be converted to a boolean.');
+    return exits.error(new Error('The given value could not be converted to a boolean.'));
 
   },
 
